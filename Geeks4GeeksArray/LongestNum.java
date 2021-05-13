@@ -62,6 +62,10 @@ public class LongestNum {
         return moreThanOne;
     }
 
+    public void gitHub(){
+        System.out.println("change in git hub");
+    }
+
     public static void main(String[] args) {
         LongestNum obj = new LongestNum();
         obj.longestNum(new int[]{10, 5, 2213, 6, 221});
